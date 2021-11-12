@@ -11,7 +11,6 @@ import com.Enterprise.model.PageBean;
 import com.Enterprise.model.Recored;
 import com.Enterprise.utils.DateUtil;
 import com.Enterprise.utils.StringUtil;
-import com.sun.org.apache.bcel.internal.generic.NEW;
 
 public class RecoredDao {
 	public ResultSet recoredList(Connection con,PageBean pageBean,Recored recored,String cName)throws Exception{
